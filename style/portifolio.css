@@ -13,7 +13,7 @@ body {
     display: table;
 }
 #background{
-    background-image: url(background.jpeg);
+    background-image: url(../img/background.jpeg);
     margin:0;
     padding:0;
     width: 100%;
@@ -66,49 +66,45 @@ aside{
 }
 
 #nome{
-    position: relative;
-width: 219px;
-height: 59px;
-left: 590px;
-margin-top: 300px;
+    /* position: relative;
+    width: 219px;
+    height: 59px;
+    left: 590px;
+    margin-top: 300px; */
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 59px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 #descrição {
-    position: relative;
-width: 448px;
-height: 69px;
-left: 590px;
+    /* position: relative;
+    width: 448px;
+    height: 69px;
+    left: 590px; */
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 #imagem{
-
-/* foto portifólio 1 */
-
-
-position: absolute;
-margin-top: 20px;
-width: 200px;
-height: 200px;
-left: 232px;
-
-border-radius: 148px;
+    /* foto portifólio 1 */
+    /* position: absolute; */
+    /* margin-top: 20px; */
+    width: 200px;
+    height: 200px;
+    left: 232px;
+    border-radius: 148px;
 }
 
 
