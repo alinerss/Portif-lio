@@ -1,3 +1,10 @@
+/* Cores */
+:root{
+    --roxo:#2A1F4F;
+    --roxo_claro:rgb(53, 21, 68);
+    --preto:#000000;
+    --branco: #ffffff;
+}
 
 html { 
     margin:0; 
@@ -9,7 +16,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color: var(--preto);
     display: table;
 }
 #background{
@@ -39,7 +46,7 @@ nav{
         width: 100%;
         height: 50px;
         list-style: none;
-        background: #2A1F4F;
+        background: var(--roxo);
     }
     li {
         margin-top: 26px;
@@ -47,7 +54,7 @@ nav{
     }
     li a {
         text-decoration: none;
-        color:#fff;
+        color:var(--branco);
         text-transform: uppercase;
         font-family: 'Courier New', Courier, monospace;
         font-weight: lighter;
@@ -57,12 +64,11 @@ nav{
     }
     li a:hover {
         transition: 1s;
-        color:rgb(53, 21, 68);
+        color:var(--roxo_claro);
         background: rgba(255, 255, 255, 0, 7);
     }
-aside{
-    width: 1440px;
-    height: 715px;
+.container{
+    margin-top: 50px;
 }
 
 #nome{
@@ -79,7 +85,7 @@ aside{
     line-height: 59px;
 
 
-    color: #FFFFFF;
+    color: var(--branco);
 }
 
 #descrição {
@@ -94,17 +100,24 @@ aside{
     font-size: 20px;
     line-height: 23px;
 
-    color: #FFFFFF;
+    color: var(--branco);
 }
 
 #imagem{
     /* foto portifólio 1 */
     /* position: absolute; */
     /* margin-top: 20px; */
+    margin-right: 100px;
     width: 200px;
     height: 200px;
     left: 232px;
     border-radius: 148px;
+}
+
+i{
+    color: var(--roxo);
+    font-size: 100px;
+    z-index:10;
 }
 
 
